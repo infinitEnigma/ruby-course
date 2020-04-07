@@ -14,6 +14,12 @@
 
  if color == "blue"
      puts "Wow! My favorite color is #{color} also!"
- else
-     puts "I'm not a big fan of #{color}."
+    elsif color == "black"
+        puts "It's not as good as blue, but #{color} isn't too bad."
+    elsif color == "red"
+        puts "It's not as good as blue, but #{color} isn't too bad."
+    elsif color == "green"
+        puts "It's not as good as blue, but #{color} isn't too bad."
+    else
+        puts "I'm not a big fan of #{color}."
  end
